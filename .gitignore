@@ -1,0 +1,36 @@
+# Ignore Python compiled files and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Ignore Node.js dependencies and build files
+node_modules/
+dist/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore Docker files that shouldn't be versioned
+docker-compose.override.yml
+*.swp
+.dockerignore
+
+# Ignore database and temp files
+mongo_data/
+logs/
+*.log
+tmp/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore secrets and environment files
+.env
+*.pem
+*.crt
+*.key
